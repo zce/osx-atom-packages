@@ -1,0 +1,49 @@
+"*":
+  "exception-reporting":
+    userId: "652caa91-0c23-f7f7-1978-05c832f21193"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "one-light-ui"
+      "chester-atom-syntax"
+    ]
+    disabledPackages: [
+      "terminal-status"
+      "php-server"
+      "tool-bar"
+      "tool-bar-main"
+      "atom-terminal-panel"
+    ]
+    ignoredNames: [
+      ".DS_Store"
+      "._*"
+    ]
+  editor:
+    invisibles: {}
+    fontSize: 16
+    tabLength: 4
+    fontFamily: "Source Code Pro"
+    preferredLineLength: 120
+  "one-light-ui": {}
+  "tool-bar":
+    position: "Left"
+  "file-icons":
+    onChanges: true
+    coloured: false
+  "atom-beautify":
+    analytics: false
+  pigments:
+    markerType: "dot"
+  minimap: {}
+  "git-plus": {}
+  "terminal-panel":
+    windowHeight: 80
+  "atom-terminal":
+    surpressDirectoryArgument: false
+  "terminal-status": {}
+  "php-server": {}
+  "atom-terminal-panel": {}
+  linter: {}
+  "tree-view":
+    hideIgnoredNames: true
